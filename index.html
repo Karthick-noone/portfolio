@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>KARTHICK | Portfolio</title>
+  <title>K A R T H I C K | Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/karthick2.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -278,8 +278,7 @@
         <div class="card" data-aos="fade-up">
           <div class="card-inner">
             <div class="card-front">
-              <img src="assets/img/img13.png" class="card-img-top" alt="Project 1">
-              <h5>Hotel Room Booking</h5>
+              <img src="assets/img/newfbro.png" class="card-img-top" alt="Project 1">
 
             </div>
             <div class="card-back">
@@ -408,28 +407,33 @@
             </div>
           </div>
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form  id="contact-form"  action="https://formspree.io/f/mvoeeado"
+              method="POST" role="form" class="php-email-form">
+
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" name="Name" class="form-control" id="fname" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <label for="name">Your Number</label>
+                  <input type="text" class="form-control" name="Mobile" id="mobile" required>
                 </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Your Email</label>
+                <input type="email" class="form-control" name="Email" id="email" required>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control" name="Subject" id="subject" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="Message" rows="10" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="error-message" style="display: none;"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
@@ -469,7 +473,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/index.js"></script>
-
 
 </body>
 
